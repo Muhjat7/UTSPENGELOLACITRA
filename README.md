@@ -1,13 +1,14 @@
 # UTS_Pengolahancitra
+### Menggunakan Streamlit
 
 
 | Nama  |  Nim | Kelas |
 | ----------------- | ------------- |------------- |
-| Muhamad Farras Jasir     | 312210361 | TI 22 A5 |
-| Yehezkiel Juandro Metta  | 312210376 | TI 22 A5 |
-| Muhamad Hasbiallah       | 312210618 | TI 22 A5 |
-| Ridha Muhammad Rifqi     | 312210491 | TI 22 A5 |
-| Unggul Primadhani        | 312210477 | TI 22 A5 |
+| Muhamad Jati Wasesa      | 312210481 | TI 22 A5 |
+| Idris Syahruddin         | 312210467 | TI 22 A5 |
+| Dimas Aditya Putranto    | 312210489 | TI 22 A5 |
+| Hardi Wirkan             | 312210492 | TI 22 A5 |
+| Dzaky Alaudin Malik      | 312210495 | TI 22 A5 |
 
 
 
@@ -25,6 +26,9 @@
 
 ```
 pip install streamlit opencv-python matplotlib numpy
+pip install opencv-python
+pip install matplotlib
+
 ```
 
 ### Buat file Python (misalnya app.py) dan impor library.
@@ -34,6 +38,7 @@ import streamlit as st
 import cv2
 from matplotlib import pyplot as plt
 import numpy as np
+pip install numpy
 ```
 
 ### Membuat Fungsi Manipulasi Citra, untuk 'Konversi RGB ke HSV'
@@ -123,40 +128,38 @@ if uploaded_file is not None:
 streamlit run app.py
 ```
 
-![Screenshot (561)](https://github.com/muhamadfarrasjasir12/UTS_Pengolahan_Citra/assets/150880443/5d9d9dcc-9c72-4cfa-a5a7-a2d09b33e3a6)
+![ss citra](https://github.com/Muhjat7/UTSPENGELOLACITRA/assets/129918243/4844b393-eace-4c0a-a8d9-d26e95f4a0b3)
 
 
-### Dan Hasil run Silahkan pindah ke chrome untuk tampilan nya seperti gamabr di abawah ini :
+### Dan Hasil run Silahkan pindah ke chrome untuk tampilan nya seperti gamabr di bawah ini :
 
-![Screenshot (557)](https://github.com/muhamadfarrasjasir12/UTS_Pengolahan_Citra/assets/150880443/76dd96ff-ce40-42c3-89a3-d9a605a5c653)
+![sscitra2](https://github.com/Muhjat7/UTSPENGELOLACITRA/assets/129918243/ecee350e-9fc6-4dbf-9cf9-cf02b5b9b411)
 
 
 ### Silakahkan klik browse file dan pilih gambar yang akan di manipulasi 
 
 #### *Gambar Original*
 
-![Screenshot (557)](https://github.com/muhamadfarrasjasir12/UTS_Pengolahan_Citra/assets/150880443/90012622-c482-49ac-9979-29419100d40b)
+![image](https://github.com/Muhjat7/UTSPENGELOLACITRA/assets/129918243/a3835bda-b697-4acc-9269-c472141605e9)
 
 
 #### *RGB menjadi HSV*
 
-![Screenshot (558)](https://github.com/muhamadfarrasjasir12/UTS_Pengolahan_Citra/assets/150880443/03290153-180c-4367-bb2b-fa95f3de2196)
+![image](https://github.com/Muhjat7/UTSPENGELOLACITRA/assets/129918243/a5a363e7-9033-4a3b-b4e1-41323d9a210e)
 
 
 #### *hasil gambar menghitung Histogram*
 
-![Screenshot (560)](https://github.com/muhamadfarrasjasir12/UTS_Pengolahan_Citra/assets/150880443/dbd5352f-eca6-4172-b319-98478cc6e000)
+![citra4](https://github.com/Muhjat7/UTSPENGELOLACITRA/assets/129918243/c270de20-1c6e-435a-b84c-40a40dbb77ff)
 
 
 
 #### *hasil gambar Contour*
 
-![Screenshot (559)](https://github.com/muhamadfarrasjasir12/UTS_Pengolahan_Citra/assets/150880443/d64dc82b-f617-42c4-a218-01d137aa310c)
+![citra6](https://github.com/Muhjat7/UTSPENGELOLACITRA/assets/129918243/c415ad79-d4b9-4a4a-a051-555930a4a4cd)
 
 
 
 ### *--------------------------------------- Terimakasih -----------------------------------------------*
 
 
-### Link Webapp
-http://192.168.0.105:8501
