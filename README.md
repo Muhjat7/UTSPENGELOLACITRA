@@ -140,12 +140,12 @@ streamlit run app.py
 
 #### *Gambar Original*
 
-![image](https://github.com/Muhjat7/UTSPENGELOLACITRA/assets/129918243/a3835bda-b697-4acc-9269-c472141605e9)
+![rev1](https://github.com/Muhjat7/UTSPENGELOLACITRA/assets/129918243/8eee3cb0-a5ee-4a04-ac08-8d0412ae62d3)
 
 
 #### *RGB menjadi HSV*
 
-![image](https://github.com/Muhjat7/UTSPENGELOLACITRA/assets/129918243/a5a363e7-9033-4a3b-b4e1-41323d9a210e)
+![rev2](https://github.com/Muhjat7/UTSPENGELOLACITRA/assets/129918243/1eb52a8a-418e-41a1-a7d1-15f93f933d1a)
 
 
 #### *hasil gambar menghitung Histogram*
